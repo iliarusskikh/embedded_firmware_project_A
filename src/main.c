@@ -5,6 +5,15 @@
  * This file contains the main application entry point and initialization
  * sequence. It orchestrates the initialization of all system components
  * and runs the main application loop.
+ *
+ * Initialization sequence:
+ * HAL init
+ * Board init (clocks, GPIO)
+ * Driver init (I2C2, I2C1, TIM2, DAC1)
+ * App init (sensor sampling)
+ * Start timer and sensor sampling
+ * TIM2 interrupt handler (TIM2_IRQHandler)
+ * HAL callback (HAL_TIM_PeriodElapsedCallback) to trigger sensor sampling
  */
 
 #include "main.h"
@@ -14,6 +23,7 @@
 
 /* Application includes */
 #include "app.h"
+#include "sensor_sampling.h"
 
 /* Driver includes */
 #include "ms58.h"
@@ -63,17 +73,31 @@ static void main_init_hal(void)
  */
 static bool main_init_drivers(void)
 {
+    /* Initialize I2C2 for pressure sensor */
+    if (!hal_i2c2_init()) {
+        return false;
+    }
+    
+    /* Initialize I2C1 for I2C slave */
+    if (!hal_i2c1_init()) {
+        return false;
+    }
+    
+    /* Initialize TIM2 for sensor sampling */
+    if (!hal_tim2_init()) {
+        return false;
+    }
+    
+    /* Initialize DAC1 */
+    if (!hal_dac1_init()) {
+        return false;
+    }
+    
     /* TODO: Initialize I2C slave driver */
     /* i2c_slave_init(&hi2c1, BOARD_I2C1_SLAVE_ADDR); */
     
     /* TODO: Initialize DAC driver */
     /* dac_init(&hdac1); */
-    
-    /* TODO: Initialize pressure sensor driver */
-    /* ms58_init(...); */
-    
-    /* TODO: Initialize timer for sensor sampling */
-    /* timer_init(&htim2, BOARD_TIM2_FREQ_HZ); */
     
     return true;
 }
@@ -85,8 +109,20 @@ static bool main_init_drivers(void)
  */
 static bool main_init_app(void)
 {
-    /* TODO: Initialize application logic */
-    /* app_init(); */
+    /* Initialize application layer */
+    if (!app_init()) {
+        return false;
+    }
+    
+    /* Start sensor sampling */
+    if (!sensor_sampling_start()) {
+        return false;
+    }
+    
+    /* Start timer to trigger sensor sampling interrupts */
+    if (!hal_tim2_start()) {
+        return false;
+    }
     
     return true;
 }
@@ -122,8 +158,7 @@ int main(void)
     }
     
     /* 3. Initialize HAL peripherals (I2C, DAC, TIM configurations) */
-    /* This should be done in hal_config.c or here */
-    /* hal_init_peripherals(); */
+    /* Note: HAL MSP callbacks in hal_config.c handle GPIO configuration */
     
     /* 4. Initialize drivers */
     if (!main_init_drivers()) {
@@ -144,8 +179,8 @@ int main(void)
         /* The actual work is done in interrupt handlers and 
          * application callbacks */
         
-        /* TODO: Call application main loop function */
-        /* app_main_loop(); */
+        /* Call application main loop function */
+        app_main_loop();
         
         /* Enter low-power mode if no work to do */
         HAL_PWR_EnterSLEEPMode(PWR_MAINREGULATOR_ON, PWR_SLEEPENTRY_WFI);
@@ -155,3 +190,31 @@ int main(void)
     return 0;
 }
 
+/* ============================================================================
+ * INTERRUPT HANDLERS
+ * ============================================================================ */
+
+/**
+ * @brief TIM2 interrupt handler
+ * 
+ * This interrupt is triggered every 2ms to sample the pressure sensor.
+ * The actual sensor reading is handled by the sensor_sampling module
+ * using a state machine.
+ */
+void TIM2_IRQHandler(void)
+{
+    HAL_TIM_IRQHandler(&htim2);
+}
+
+/**
+ * @brief TIM2 period elapsed callback
+ * 
+ * Called by HAL when TIM2 period elapses (every 2ms).
+ * This triggers the sensor sampling state machine.
+ */
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
+{
+    if (htim->Instance == BOARD_TIM2_PERIPH) {
+        sensor_sampling_timer_isr();
+    }
+}

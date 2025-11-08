@@ -1,5 +1,7 @@
 #include "ms58.h"
 #include "ms58_regs.h"
+#include <stdint.h>
+#include <limits.h>  /* For INT32_MAX, INT32_MIN */
 
 
 // Reset the sensor
@@ -24,25 +26,23 @@ ms583730ba01_err_t ms5837_read_prom(const ms583730ba01_h *h, uint16_t *calibrati
 
     for (int i = 0; i < 7; i++) {
         cmd = MS5837_PROM_READ_BASE + (i * 2);
-        printk("Sending command 0x%X for coefficient %d\n", cmd, i);
+        //printk("Sending command 0x%X for coefficient %d\n", cmd, i);
 
         result = h->write_cmd(cmd);
         if (result != E_MS58370BA01_SUCCESS) {
-            printk("Failed to send PROM read command for coefficient %d, error: %d\n", i, result);
+            //printk("Failed to send PROM read command for coefficient %d, error: %d\n", i, result);
             return result;
         }
 
         result = h->read_data(data, 2);
         if (result != E_MS58370BA01_SUCCESS) {
-            printk("Failed to read PROM data for coefficient %d, error: %d\n", i, result);
+            //printk("Failed to read PROM data for coefficient %d, error: %d\n", i, result);
             return result;
         }
 
         calibration_data[i] = (data[0] << 8) | data[1];
-        printk("Coefficient C%d: %u\n", i, calibration_data[i]);
+        //printk("Coefficient C%d: %u\n", i, calibration_data[i]);
     }
-
-    printk("PROM data read successfully\n");
     return E_MS58370BA01_SUCCESS;
 }
 
@@ -127,8 +127,74 @@ ms583730ba01_err_t ms5837_read_temperature_and_pressure(
 
     // 9) Calculate pressure (P)
     P = ((((int64_t)D1 * SENS) / 2097152) - OFF) / 32768;  // (D1 * SENS / 2^21 - OFF) / 2^15
-    *pressure = (int32_t)P;  // Convert to mbar (pressure in 0.01 mbar resolution)
+    
+    // Overflow protection: Clamp pressure to int32_t range before casting
+    if (P > INT32_MAX) {
+        *pressure = INT32_MAX;
+    } else if (P < INT32_MIN) {
+        *pressure = INT32_MIN;
+    } else {
+        *pressure = (int32_t)P;  // Convert to mbar (pressure in 0.01 mbar resolution)
+    }
+    
+    // Overflow protection: Clamp temperature to int32_t range (shouldn't overflow, but safe)
+    if (*temperature > INT32_MAX) {
+        *temperature = INT32_MAX;
+    } else if (*temperature < INT32_MIN) {
+        *temperature = INT32_MIN;
+    }
 
+    return E_MS58370BA01_SUCCESS;
+}
+
+// Calculate pressure and temperature from ADC values (calculation only)
+ms583730ba01_err_t ms5837_calculate_pressure_temperature(
+    const uint16_t *calibration_data,
+    uint32_t d1_pressure,
+    uint32_t d2_temperature,
+    int32_t *pressure,
+    int32_t *temperature
+) {
+    if (calibration_data == NULL || pressure == NULL || temperature == NULL) {
+        return E_MS58370BA01_NULLPTR_ERR;
+    }
+    
+    int32_t dT;               // Temperature difference
+    int64_t OFF, SENS, P;     // Intermediate calculations
+    
+    // Calculate dT (difference between actual and reference temperature)
+    dT = (int32_t)d2_temperature - ((int32_t)calibration_data[5] * 256);  // C5 * 2^8
+    
+    // Calculate temperature (TEMP)
+    *temperature = 2000 + ((int64_t)dT * calibration_data[6]) / 8388608;  // C6 / 2^23
+    
+    // Calculate OFF (Offset at actual temperature)
+    OFF = ((int64_t)calibration_data[2] * 131072)  // C2 * 2^17
+        + (((int64_t)calibration_data[4] * dT) / 64);  // C4 * dT / 2^6
+    
+    // Calculate SENS (Sensitivity at actual temperature)
+    SENS = ((int64_t)calibration_data[1] * 65536)  // C1 * 2^16
+         + (((int64_t)calibration_data[3] * dT) / 128);  // C3 * dT / 2^7
+    
+    // Calculate pressure (P)
+    P = ((((int64_t)d1_pressure * SENS) / 2097152) - OFF) / 32768;  // (D1 * SENS / 2^21 - OFF) / 2^15
+    
+    // Overflow protection: Clamp pressure to int32_t range before casting
+    if (P > INT32_MAX) {
+        *pressure = INT32_MAX;
+    } else if (P < INT32_MIN) {
+        *pressure = INT32_MIN;
+    } else {
+        *pressure = (int32_t)P;  // Convert to mbar (pressure in 0.01 mbar resolution)
+    }
+    
+    // Overflow protection: Clamp temperature to int32_t range (shouldn't overflow, but safe)
+    if (*temperature > INT32_MAX) {
+        *temperature = INT32_MAX;
+    } else if (*temperature < INT32_MIN) {
+        *temperature = INT32_MIN;
+    }
+    
     return E_MS58370BA01_SUCCESS;
 }
 

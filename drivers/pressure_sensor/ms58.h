@@ -37,4 +37,25 @@ ms583730ba01_err_t ms5837_read_temperature_and_pressure(
     int osr_d1, int osr_d2, uint16_t delay_d1, uint16_t delay_d2
 );
 
+/**
+ * @brief Calculate pressure and temperature from ADC values
+ * 
+ * This function performs the calculation only, using pre-read ADC values.
+ * Use this when you've already read D1 and D2 separately.
+ * 
+ * @param calibration_data Calibration coefficients from PROM (7 values)
+ * @param d1_pressure Raw pressure ADC value (D1)
+ * @param d2_temperature Raw temperature ADC value (D2)
+ * @param pressure Calculated pressure output (0.01 mbar resolution)
+ * @param temperature Calculated temperature output (0.01°C resolution)
+ * @return ms583730ba01_err_t Error code
+ */
+ms583730ba01_err_t ms5837_calculate_pressure_temperature(
+    const uint16_t *calibration_data,
+    uint32_t d1_pressure,
+    uint32_t d2_temperature,
+    int32_t *pressure,
+    int32_t *temperature
+);
+
 #endif // MS5837_H
