@@ -8,6 +8,7 @@
 #include "app.h"
 #include "sensor_sampling.h"
 #include "hal_config.h"
+#include "i2c_slave.h"
 #include <stdio.h>  /* For printf */
 
 /* ============================================================================
@@ -32,6 +33,41 @@ static uint32_t reading_count = 0;
 #define READING_COUNT_MAX   (UINT32_MAX - 1)  /* Prevent overflow */
 
 /* ============================================================================
+ * PRIVATE FUNCTIONS
+ * ============================================================================ */
+
+/**
+ * @brief I2C slave receive callback
+ * 
+ * Called automatically when a 32-bit value is received from I2C master.
+ * This runs in interrupt context, so keep it short!
+ * 
+ * @param received_value The 32-bit value received from master
+ */
+static void app_i2c_slave_rx_callback(uint32_t received_value)
+{
+    /* Print received value - commented out but retained for debugging */
+    /* Uncomment to enable printf output (requires UART/USB setup) */
+    /*
+    printf("[I2C Slave] Received 32-bit value: 0x%08lX (%lu)\r\n", 
+           (unsigned long)received_value, 
+           (unsigned long)received_value);
+    printf("  Hex: 0x%08lX\r\n", (unsigned long)received_value);
+    printf("  Decimal: %lu\r\n", (unsigned long)received_value);
+    printf("  Bytes: 0x%02X 0x%02X 0x%02X 0x%02X\r\n",
+           (uint8_t)(received_value & 0xFF),
+           (uint8_t)((received_value >> 8) & 0xFF),
+           (uint8_t)((received_value >> 16) & 0xFF),
+           (uint8_t)((received_value >> 24) & 0xFF));
+    printf("\r\n");
+    */
+    
+    /* NOTE: This callback runs in interrupt context!
+     * Keep processing minimal here. For heavy processing,
+     * store the value and process it in app_main_loop() */
+}
+
+/* ============================================================================
  * PUBLIC FUNCTIONS
  * ============================================================================ */
 
@@ -42,7 +78,12 @@ bool app_init(void)
         return false;
     }
     
-    /* TODO: Initialize I2C slave */
+    /* I2C slave is initialized in main_init_drivers() */
+    /* I2C slave is started in main_init_app() */
+    
+    /* Register I2C slave RX callback to print received values */
+    i2c_slave_register_rx_callback(app_i2c_slave_rx_callback);
+    
     /* TODO: Initialize DAC */
     
     app_initialized = true;
@@ -130,7 +171,17 @@ void app_main_loop(void)
         /* Store latest reading for other application modules */
         /* This data can be used by I2C slave, DAC control, etc. */
         
-        /* TODO: Process I2C slave requests - can use latest_sensor_data */
+        /* Update I2C slave TX value with latest pressure reading */
+        /* When master reads, it will get the latest pressure value */
+        i2c_slave_set_tx_value((uint32_t)pressure_clamped);
+        
+        /* TODO: Process received I2C slave data if needed */
+        /* uint32_t received_value;
+         * if (i2c_slave_get_received_value(&received_value)) {
+         *     // Process received value from master
+         * }
+         */
+        
         /* TODO: Update DAC outputs based on sensor data or I2C commands */
     }
     /* else: No new data available yet, sensor still reading or error occurred */

@@ -88,6 +88,12 @@ bool hal_i2c1_init(void)
         return false;
     }
     
+    /* Enable I2C1 interrupts for slave mode */
+    HAL_NVIC_SetPriority(I2C1_IRQn, 1, 0);
+    HAL_NVIC_EnableIRQ(I2C1_IRQn);
+    HAL_NVIC_SetPriority(I2C1_ER_IRQn, 1, 0);
+    HAL_NVIC_EnableIRQ(I2C1_ER_IRQn);
+    
     return true;
 }
 

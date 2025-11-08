@@ -83,6 +83,11 @@ static bool main_init_drivers(void)
         return false;
     }
     
+    /* Initialize I2C slave driver */
+    if (!i2c_slave_init(&hi2c1, BOARD_I2C1_SLAVE_ADDR)) {
+        return false;
+    }
+    
     /* Initialize TIM2 for sensor sampling */
     if (!hal_tim2_init()) {
         return false;
@@ -121,6 +126,11 @@ static bool main_init_app(void)
     
     /* Start timer to trigger sensor sampling interrupts */
     if (!hal_tim2_start()) {
+        return false;
+    }
+    
+    /* Start I2C slave listening */
+    if (!i2c_slave_start()) {
         return false;
     }
     
@@ -217,4 +227,28 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim)
     if (htim->Instance == BOARD_TIM2_PERIPH) {
         sensor_sampling_timer_isr();
     }
+}
+
+/* ============================================================================
+ * I2C1 INTERRUPT HANDLERS (I2C Slave)
+ * ============================================================================ */
+
+/**
+ * @brief I2C1 event interrupt handler
+ * 
+ * Handles I2C1 event interrupts for slave mode operation.
+ */
+void I2C1_EV_IRQHandler(void)
+{
+    i2c_slave_irq_handler();
+}
+
+/**
+ * @brief I2C1 error interrupt handler
+ * 
+ * Handles I2C1 error interrupts for slave mode operation.
+ */
+void I2C1_ER_IRQHandler(void)
+{
+    i2c_slave_irq_handler();
 }
