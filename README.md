@@ -14,12 +14,15 @@
 
 
 ## Hardware
-    * MCU: STM32L072V8.
-    * Pressure Sensor (MS583730BA01-50): Connected via I2C1. Powered from a 3.3V rail.
-    * I2C Slave: Implemented on I2C2 to ensure separation from the sensor's bus. Slave address assumed as 0x10 (configurable in code; document if changed).
-    * DAC Outputs: Using internal DAC channels. Outputs clipped to 0-3.3V range (assuming VREF+ = 3.3V).
-    * Timer: TIM2 used for 2 ms interrupt triggering (configurable prescaler and period for ~500 Hz).
-    * Power/Voltage Rails: All components on 3.3V rail; no external DACs as per updated assignment.
+    * MCU: STM32L072CBT6 (LQFP48 package, low-power series with internal DAC and multiple I2C peripherals).
+    * Pressure Sensor (MS583730BA01-50): Connected via I2C2 (SCL on PB10, SDA on PB11). Powered from 3V3 rail, address 0x76. Pull-up resistors (2.2kΩ) on SCL and SDA. TVS protection (NUP2105LT1G) present.
+    * I2C Slave: Implemented on I2C1 (SCL on PA9, SDA on PA10) to ensure separation from the sensor's bus. TVS protection (NUP2105LT1G) present. Slave address assumed as 0x10 (configurable in code). No pull-up resistors shown on this bus—assuming provided by the external master; if not, add 4.7kΩ externally.
+    * DAC Outputs: Using internal DAC channels (DAC1_OUT1 on PA4, DAC1_OUT2 on PA5). Outputs clipped to 0-3.3V range (VREF+ = VDDA = 3V3, filtered via ferrite bead FB1).
+    * Timer: TIM2 used for 2 ms interrupt triggering (configurable prescaler and period for ~500 Hz). No external pins required for internal timing.
+    * Power/Voltage Rails: MCU and sensor on 3V3 rail (derived from 12V input via buck converter TPS561208 in the schematic, but firmware assumes stable 3V3). GND common. VDDA connected to 3V3 via filter (FB1 120Ω ferrite bead). No separate analog reference shown.
+    * Clock: No external oscillator connected (OSC_IN and OSC_OUT floating); using internal HSI (16 MHz).
+
+    * Assumptions: External DACs (MCP4725) and associated op-amps (OPA192) removed as per assignment—internal DAC outputs used directly without buffering. If buffering is needed, outputs would connect to former VOUT points of external DACs. I2C slave does not use INTR_MCU signal (not required for assignment; in schematic, it's routed to connector but not tied to an MCU GPIO in the parsed netlist—assumed optional). Connector J1 for sensor uses pins: 1 CLK (SCL), 2 SDA, 3 VDD (3V3), 4 GND (decoupling cap C1 100nF). If schematic implies different configurations, update board/board_config.h accordingly.
 
 
 ## Prerequisites
