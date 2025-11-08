@@ -9,6 +9,7 @@
 #include "sensor_sampling.h"
 #include "hal_config.h"
 #include "i2c_slave.h"
+#include "dac.h"
 #include <stdio.h>  /* For printf */
 
 /* ============================================================================
@@ -84,7 +85,8 @@ bool app_init(void)
     /* Register I2C slave RX callback to print received values */
     i2c_slave_register_rx_callback(app_i2c_slave_rx_callback);
     
-    /* TODO: Initialize DAC */
+    /* DAC driver is initialized in main_init_drivers() */
+    /* DAC is ready to use */
     
     app_initialized = true;
     return true;
@@ -148,7 +150,7 @@ void app_main_loop(void)
         if (pressure_psi > 150.0f) pressure_psi = 150.0f;  /* Max ~150 PSI */
         if (pressure_psi < -150.0f) pressure_psi = -150.0f;
         
-        /* Debug output - commented out but retained for debugging */
+
         /* Uncomment these lines to enable printf output (requires UART/USB setup) */
         /*
         printf("[Sensor Reading #%lu]\r\n", (unsigned long)reading_count);
@@ -176,13 +178,29 @@ void app_main_loop(void)
         i2c_slave_set_tx_value((uint32_t)pressure_clamped);
         
         /* TODO: Process received I2C slave data if needed */
-        /* uint32_t received_value;
-         * if (i2c_slave_get_received_value(&received_value)) {
-         *     // Process received value from master
-         * }
-         */
+        uint32_t received_value;
+        if (i2c_slave_get_received_value(&received_value)) {
+             // Process received value from master
+             //printf("Received I2C slave value: %lu\r\n", (unsigned long)received_value);
+        }
+         
         
-        /* TODO: Update DAC outputs based on sensor data or I2C commands */
+        /* Example: Update DAC outputs based on sensor data */
+        /* DAC Channel 1: Set to pressure (scaled to 0-3.3V range) */
+        /* Example: Map pressure to 0-3.3V (adjust scaling as needed) */
+        
+        float dac1_voltage = (pressure_mbar / 3000.0f) * 3.3f;  // Scale 0-3000 mbar to 0-3.3V
+        dac_set_voltage_ch1(dac1_voltage);
+        
+        
+        /* DAC Channel 2: Set to temperature (scaled to 0-3.3V range) */
+        /* Example: Map temperature to 0-3.3V (adjust scaling as needed) */
+        
+        float dac2_voltage = ((temperature_c + 20.0f) / 105.0f) * 3.3f;  // Scale -20°C to +85°C to 0-3.3V
+        if (dac2_voltage > 3.3f) dac2_voltage = 3.3f;
+        if (dac2_voltage < 0.0f) dac2_voltage = 0.0f;
+        dac_set_voltage_ch2(dac2_voltage);
+        
     }
     /* else: No new data available yet, sensor still reading or error occurred */
     

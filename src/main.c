@@ -98,11 +98,10 @@ static bool main_init_drivers(void)
         return false;
     }
     
-    /* TODO: Initialize I2C slave driver */
-    /* i2c_slave_init(&hi2c1, BOARD_I2C1_SLAVE_ADDR); */
-    
-    /* TODO: Initialize DAC driver */
-    /* dac_init(&hdac1); */
+    /* Initialize DAC driver */
+    if (!dac_init()) {
+        return false;
+    }
     
     return true;
 }
