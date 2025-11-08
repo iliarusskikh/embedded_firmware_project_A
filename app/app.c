@@ -187,18 +187,28 @@ void app_main_loop(void)
         
         /* Example: Update DAC outputs based on sensor data */
         /* DAC Channel 1: Set to pressure (scaled to 0-3.3V range) */
-        /* Example: Map pressure to 0-3.3V (adjust scaling as needed) */
-        
-        float dac1_voltage = (pressure_mbar / 3000.0f) * 3.3f;  // Scale 0-3000 mbar to 0-3.3V
+        /* Map pressure to 0-3.3V: Sensor range is 0-3000 mbar (0-30 bar) */
+        /* Clamp pressure to valid sensor range before scaling */
+        float pressure_for_dac = pressure_mbar;
+        if (pressure_for_dac < 0.0f) {
+            pressure_for_dac = 0.0f;  /* Sensor minimum is 0 mbar */
+        } else if (pressure_for_dac > 3000.0f) {
+            pressure_for_dac = 3000.0f;  /* Sensor maximum is 3000 mbar */
+        }
+        float dac1_voltage = (pressure_for_dac / 3000.0f) * 3.3f;  /* Scale 0-3000 mbar to 0-3.3V */
         dac_set_voltage_ch1(dac1_voltage);
         
-        
         /* DAC Channel 2: Set to temperature (scaled to 0-3.3V range) */
-        /* Example: Map temperature to 0-3.3V (adjust scaling as needed) */
-        
-        float dac2_voltage = ((temperature_c + 20.0f) / 105.0f) * 3.3f;  // Scale -20°C to +85°C to 0-3.3V
-        if (dac2_voltage > 3.3f) dac2_voltage = 3.3f;
-        if (dac2_voltage < 0.0f) dac2_voltage = 0.0f;
+        /* Map temperature to 0-3.3V: Sensor range is -20°C to +85°C */
+        /* Clamp temperature to valid sensor range before scaling */
+        float temp_for_dac = temperature_c;
+        if (temp_for_dac < -20.0f) {
+            temp_for_dac = -20.0f;  /* Sensor minimum is -20°C */
+        } else if (temp_for_dac > 85.0f) {
+            temp_for_dac = 85.0f;  /* Sensor maximum is +85°C */
+        }
+        float dac2_voltage = ((temp_for_dac + 20.0f) / 105.0f) * 3.3f;  /* Scale -20°C to +85°C to 0-3.3V */
+        /* Note: dac_set_voltage_ch2() already clips to 0-3.3V, but explicit clamping ensures correct scaling */
         dac_set_voltage_ch2(dac2_voltage);
         
     }
