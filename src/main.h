@@ -1,6 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdint.h>
 /**
  * @file main.h
  * @brief Main application entry point and initialization

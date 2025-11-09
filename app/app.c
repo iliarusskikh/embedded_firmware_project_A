@@ -10,7 +10,7 @@
 #include "hal_config.h"
 #include "i2c_slave.h"
 #include "dac.h"
-#include <stdio.h>  /* For printf */
+/* #include <stdio.h>  For printf - commented out as printf statements are disabled */
 
 /* ============================================================================
  * PRIVATE VARIABLES

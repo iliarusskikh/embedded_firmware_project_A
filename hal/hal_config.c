@@ -9,20 +9,6 @@
  * DAC1 initialization
  * HAL MSP callbacks for GPIO configuration
  * Uses board_config.h macros throughout
- * 
- * @return true if initialization successful, false otherwise
- */
-bool hal_i2c2_init(void)
-{
-    hi2c2.Instance = BOARD_I2C2_PERIPH;
-    hi2c2.Init.Timing = 0x00303D5B;  /* 100kHz I2C speed for STM32L0 @ 16MHz */
-    hi2c2.Init.OwnAddress1 = 0;
-    hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
-    hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
-    hi2c2.Init.OwnAddress2 = 0;
-    hi2c2.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
-    hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
-    hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
  */
 
 #include "hal_config.h"
@@ -89,10 +75,9 @@ bool hal_i2c1_init(void)
     }
     
     /* Enable I2C1 interrupts for slave mode */
+    /* Note: STM32L0 uses single I2C1_IRQn for both event and error interrupts */
     HAL_NVIC_SetPriority(I2C1_IRQn, 1, 0);
     HAL_NVIC_EnableIRQ(I2C1_IRQn);
-    HAL_NVIC_SetPriority(I2C1_ER_IRQn, 1, 0);
-    HAL_NVIC_EnableIRQ(I2C1_ER_IRQn);
     
     return true;
 }
@@ -108,12 +93,9 @@ bool hal_i2c1_init(void)
 */
 bool hal_tim2_init(void)
 {
-    uint32_t apb1_freq = board_get_apb1_freq();
     /* For STM32L0: If APB prescaler = 1, timer clock = APB clock (no multiplier)
      *              If APB prescaler > 1, timer clock = APB clock * 2
      * Since we use prescaler = 1, timer clock = APB1 clock = 16MHz */
-    uint32_t timer_freq = apb1_freq;  /* 16 MHz */
-    
     /* Target: 2ms period = 0.002s, so frequency = 500 Hz
      * Timer period in counts = timer_freq / target_freq
      * For 16MHz and 500Hz: period = 16,000,000 / 500 = 32,000 counts
@@ -253,7 +235,7 @@ void HAL_DAC_MspInit(DAC_HandleTypeDef* hdac)
     GPIO_InitTypeDef GPIO_InitStruct = {0};
     
     if (hdac->Instance == BOARD_DAC_PERIPH) {
-        __HAL_RCC_DAC1_CLK_ENABLE();
+        __HAL_RCC_DAC_CLK_ENABLE();
         __HAL_RCC_GPIOA_CLK_ENABLE();
         
         /* DAC GPIO Configuration: PA4 -> OUT1, PA5 -> OUT2 */
@@ -267,7 +249,7 @@ void HAL_DAC_MspInit(DAC_HandleTypeDef* hdac)
 void HAL_DAC_MspDeInit(DAC_HandleTypeDef* hdac)
 {
     if (hdac->Instance == BOARD_DAC_PERIPH) {
-        __HAL_RCC_DAC1_CLK_DISABLE();
+        __HAL_RCC_DAC_CLK_DISABLE();
         HAL_GPIO_DeInit(BOARD_DAC1_OUT1_PORT, (1UL << BOARD_DAC1_OUT1_PIN) | (1UL << BOARD_DAC1_OUT2_PIN));
     }
 }

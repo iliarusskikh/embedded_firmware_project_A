@@ -1,0 +1,2156 @@
+Archive member included to satisfy reference by file (symbol)
+
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                              build/board/board_init.o (__aeabi_uidiv)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                              build/drivers/dac/dac.o (__aeabi_fcmplt)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                              build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o (__aeabi_uldivmod)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+                              build/drivers/pressure_sensor/ms58.o (__aeabi_lmul)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+                              build/drivers/dac/dac.o (__aeabi_f2uiz)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+                              build/drivers/dac/dac.o (__aeabi_fadd)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+                              build/drivers/dac/dac.o (__aeabi_fdiv)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o) (__eqsf2)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o) (__gesf2)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o) (__lesf2)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+                              build/drivers/dac/dac.o (__aeabi_fmul)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o) (__aeabi_fsub)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o) (__aeabi_f2iz)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+                              build/app/app.o (__aeabi_i2f)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+                              build/drivers/dac/dac.o (__aeabi_ui2f)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o) (__clzsi2)
+/opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                              /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o) (__clzdi2)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/src/main.o
+ .data          0x00000000        0x0 build/src/main.o
+ .bss           0x00000000        0x0 build/src/main.o
+ .text.main_error_handler
+                0x00000000        0xc build/src/main.o
+ .text.I2C1_EV_IRQHandler
+                0x00000000        0x8 build/src/main.o
+ .text.I2C1_ER_IRQHandler
+                0x00000000        0x8 build/src/main.o
+ .text          0x00000000        0x0 build/src/memset.o
+ .data          0x00000000        0x0 build/src/memset.o
+ .bss           0x00000000        0x0 build/src/memset.o
+ .text          0x00000000        0x0 build/src/libc_init.o
+ .data          0x00000000        0x0 build/src/libc_init.o
+ .bss           0x00000000        0x0 build/src/libc_init.o
+ .text          0x00000000        0x0 build/board/board_init.o
+ .data          0x00000000        0x0 build/board/board_init.o
+ .bss           0x00000000        0x0 build/board/board_init.o
+ .text.board_get_sysclk_freq
+                0x00000000        0xc build/board/board_init.o
+ .text.board_get_apb1_freq
+                0x00000000        0xc build/board/board_init.o
+ .text.board_get_apb2_freq
+                0x00000000        0xc build/board/board_init.o
+ .text.board_delay_us
+                0x00000000       0x38 build/board/board_init.o
+ .text          0x00000000        0x0 build/hal/hal_config.o
+ .data          0x00000000        0x0 build/hal/hal_config.o
+ .bss           0x00000000        0x0 build/hal/hal_config.o
+ .text.hal_tim2_stop
+                0x00000000       0x14 build/hal/hal_config.o
+ .text.HAL_I2C_MspDeInit
+                0x00000000       0x58 build/hal/hal_config.o
+ .text.HAL_TIM_Base_MspDeInit
+                0x00000000       0x1c build/hal/hal_config.o
+ .text.HAL_DAC_MspDeInit
+                0x00000000       0x30 build/hal/hal_config.o
+ .text          0x00000000        0x0 build/drivers/pressure_sensor/ms58.o
+ .data          0x00000000        0x0 build/drivers/pressure_sensor/ms58.o
+ .bss           0x00000000        0x0 build/drivers/pressure_sensor/ms58.o
+ .text.ms5837_read_temperature_and_pressure
+                0x00000000      0x15c build/drivers/pressure_sensor/ms58.o
+ .text          0x00000000        0x0 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .data          0x00000000        0x0 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .bss           0x00000000        0x0 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .text          0x00000000        0x0 build/drivers/i2c_slave/i2c_slave.o
+ .data          0x00000000        0x0 build/drivers/i2c_slave/i2c_slave.o
+ .bss           0x00000000        0x0 build/drivers/i2c_slave/i2c_slave.o
+ .text.i2c_slave_stop
+                0x00000000       0x24 build/drivers/i2c_slave/i2c_slave.o
+ .text.i2c_slave_register_tx_callback
+                0x00000000        0xc build/drivers/i2c_slave/i2c_slave.o
+ .text.i2c_slave_irq_handler
+                0x00000000       0x1c build/drivers/i2c_slave/i2c_slave.o
+ .text          0x00000000        0x0 build/drivers/dac/dac.o
+ .data          0x00000000        0x0 build/drivers/dac/dac.o
+ .bss           0x00000000        0x0 build/drivers/dac/dac.o
+ .text.dac_set_voltage
+                0x00000000       0x84 build/drivers/dac/dac.o
+ .text.dac_voltage_to_code
+                0x00000000       0x5c build/drivers/dac/dac.o
+ .text.dac_code_to_voltage
+                0x00000000       0x30 build/drivers/dac/dac.o
+ .text.dac_get_vref
+                0x00000000        0x8 build/drivers/dac/dac.o
+ .text.dac_get_resolution_bits
+                0x00000000        0x4 build/drivers/dac/dac.o
+ .text          0x00000000        0x0 build/app/app.o
+ .data          0x00000000        0x0 build/app/app.o
+ .bss           0x00000000        0x0 build/app/app.o
+ .text.app_get_reading_count
+                0x00000000        0xc build/app/app.o
+ .text.app_get_latest_sensor_data
+                0x00000000        0xc build/app/app.o
+ .text          0x00000000        0x0 build/app/sensor_sampling.o
+ .data          0x00000000        0x0 build/app/sensor_sampling.o
+ .bss           0x00000000        0x0 build/app/sensor_sampling.o
+ .text.sensor_sampling_stop
+                0x00000000       0x10 build/app/sensor_sampling.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .rodata.APBPrescTable
+                0x00000000        0x8 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DeInit
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_IncTick
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetTickPrio
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_SetTickFreq
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetTickFreq
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_SuspendTick
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_ResumeTick
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetHalVersion
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetREVID
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetDEVID
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetUIDw0
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetUIDw1
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_GetUIDw2
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGSleepMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGSleepMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStopMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStopMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_EnableDBGStandbyMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_DisableDBGStandbyMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_DBG_EnableLowPowerConfig
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_DBGMCU_DBG_DisableLowPowerConfig
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_SYSCFG_GetBootMode
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_SYSCFG_VREFINT_OutputSelect
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_SYSCFG_Enable_Lock_VREFINT
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text.HAL_SYSCFG_Disable_Lock_VREFINT
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_DeInit
+                0x00000000       0xe8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_MCOConfig
+                0x00000000       0xa4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_EnableCSS
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_GetHCLKFreq
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_GetPCLK1Freq
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_GetPCLK2Freq
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_GetOscConfig
+                0x00000000       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_GetClockConfig
+                0x00000000       0x44 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_CSSCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text.HAL_RCC_NMI_IRQHandler
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x00000000      0x214 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_GetPeriphCLKConfig
+                0x00000000       0x68 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_GetPeriphCLKFreq
+                0x00000000      0x21c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .rodata.HAL_RCCEx_GetPeriphCLKFreq
+                0x00000000       0x84 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_EnableLSECSS
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_DisableLSECSS
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_EnableLSECSS_IT
+                0x00000000       0x30 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_LSECSS_Callback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_LSECSS_IRQHandler
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_EnableHSI48_VREFINT
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_DisableHSI48_VREFINT
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSConfig
+                0x00000000       0x54 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSSoftwareSynchronizationGenerate
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSGetSynchronizationInfo
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRSWaitSynchronization
+                0x00000000       0xa0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_SyncOkCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_SyncWarnCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_ExpectedSyncCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_ErrorCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text.HAL_RCCEx_CRS_IRQHandler
+                0x00000000       0x74 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_info    0x00000000      0x8cf build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_abbrev  0x00000000      0x254 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_loclists
+                0x00000000      0x3a9 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_aranges
+                0x00000000       0xb0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_rnglists
+                0x00000000       0x82 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_line    0x00000000      0xb0e build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_str     0x00000000      0x776 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .comment       0x00000000       0x13 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .debug_frame   0x00000000      0x190 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .ARM.attributes
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_DeInit
+                0x00000000      0x13c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_ReadPin
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_WritePin
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_TogglePin
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_LockPin
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_Callback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text.HAL_GPIO_EXTI_IRQHandler
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_RequestMemoryWrite
+                0x00000000       0xbc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_RequestMemoryRead
+                0x00000000       0xbc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_DeInit
+                0x00000000       0x34 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Transmit
+                0x00000000      0x1f8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Receive
+                0x00000000      0x1f4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Transmit_IT
+                0x00000000       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Receive_IT
+                0x00000000       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Transmit_IT
+                0x00000000       0x64 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Receive_IT
+                0x00000000       0x64 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Transmit_DMA
+                0x00000000      0x178 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Receive_DMA
+                0x00000000      0x174 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Transmit_DMA
+                0x00000000       0xd4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Receive_DMA
+                0x00000000       0xdc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Write
+                0x00000000      0x1e4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Read
+                0x00000000      0x214 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Write_IT
+                0x00000000      0x110 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Read_IT
+                0x00000000      0x110 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Write_DMA
+                0x00000000      0x174 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Mem_Read_DMA
+                0x00000000      0x180 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_IsDeviceReady
+                0x00000000      0x1d8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Transmit_IT
+                0x00000000       0xe4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Transmit_DMA
+                0x00000000      0x1c0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Receive_IT
+                0x00000000       0xe4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Seq_Receive_DMA
+                0x00000000      0x1bc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Seq_Transmit_DMA
+                0x00000000      0x1d8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Slave_Seq_Receive_DMA
+                0x00000000      0x1e4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_DisableListen_IT
+                0x00000000       0x38 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Master_Abort_IT
+                0x00000000       0xc4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_EV_IRQHandler
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_MasterTxCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_MasterRxCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_ITMasterSeqCplt
+                0x00000000       0x74 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_SlaveTxCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_SlaveRxCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_DMASlaveTransmitCplt
+                0x00000000       0x24 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_DMASlaveReceiveCplt
+                0x00000000       0x30 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_AddrCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_ListenCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_MemTxCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_MemRxCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_ErrorCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_ITMasterCplt
+                0x00000000      0x120 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_Master_ISR_IT
+                0x00000000      0x168 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_Master_ISR_DMA
+                0x00000000      0x15c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_DMAError
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_DMAMasterTransmitCplt
+                0x00000000       0xa0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_DMAMasterReceiveCplt
+                0x00000000       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_ER_IRQHandler
+                0x00000000       0x80 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_Slave_ISR_DMA
+                0x00000000      0x138 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_GetMode
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .text.HAL_I2CEx_ConfigDigitalFilter
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .text.HAL_I2CEx_EnableWakeUp
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .text.HAL_I2CEx_DisableWakeUp
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .text.HAL_I2CEx_EnableFastModePlus
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .text.HAL_I2CEx_DisableFastModePlus
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_Base_SetConfig
+                0x00000000       0x54 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_SlaveTimer_SetConfig
+                0x00000000       0xc0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_TI1_SetConfig
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_DeInit
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_Start
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_Stop
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_Stop_IT
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_Start_DMA
+                0x00000000       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_Stop_DMA
+                0x00000000       0x38 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Init
+                0x00000000       0x94 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_DeInit
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Start
+                0x00000000       0x98 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Stop
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Start_IT
+                0x00000000       0xc0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Stop_IT
+                0x00000000       0xf8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Start_DMA
+                0x00000000      0x1b8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_Stop_DMA
+                0x00000000      0x12c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Init
+                0x00000000       0x94 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_DeInit
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Start
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Stop
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Start_IT
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Stop_IT
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Start_DMA
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_Stop_DMA
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Init
+                0x00000000       0x94 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_DeInit
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Start
+                0x00000000       0xac build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Stop
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Start_IT
+                0x00000000       0xd0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Stop_IT
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Start_DMA
+                0x00000000      0x1b0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_Stop_DMA
+                0x00000000       0xdc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_Init
+                0x00000000       0x54 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_DeInit
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_Start
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_Stop
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_Start_IT
+                0x00000000       0x58 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_Stop_IT
+                0x00000000       0x50 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Init
+                0x00000000       0xac build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_DeInit
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Start
+                0x00000000       0x7c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Stop
+                0x00000000       0x90 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Start_IT
+                0x00000000       0x94 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Stop_IT
+                0x00000000       0xac build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Start_DMA
+                0x00000000      0x19c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_Stop_DMA
+                0x00000000       0xd4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_ConfigChannel
+                0x00000000       0xfc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_ConfigChannel
+                0x00000000      0x140 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_ConfigChannel
+                0x00000000      0x178 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_ConfigChannel
+                0x00000000      0x164 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurst_MultiWriteStart
+                0x00000000       0xec build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurst_WriteStart
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurst_WriteStop
+                0x00000000       0x78 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurst_MultiReadStart
+                0x00000000       0xec build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurst_ReadStart
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurst_ReadStop
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_GenerateEvent
+                0x00000000       0x24 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_ConfigOCrefClear
+                0x00000000      0x100 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_ConfigClockSource
+                0x00000000      0x168 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_ConfigTI1Input
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_SlaveConfigSynchro
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_SlaveConfigSynchro_IT
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_ReadCapturedValue
+                0x00000000       0x30 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMAPeriodElapsedCplt
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PeriodElapsedHalfCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMAPeriodElapsedHalfCplt
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMACaptureCplt
+                0x00000000       0x70 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_CaptureHalfCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMACaptureHalfCplt
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMADelayPulseCplt
+                0x00000000       0x70 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_PulseFinishedHalfCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMADelayPulseHalfCplt
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMATriggerCplt
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_TriggerHalfCpltCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMATriggerHalfCplt
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_ErrorCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.TIM_DMAError
+                0x00000000       0x5c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Base_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OC_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_PWM_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_IC_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_OnePulse_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_Encoder_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_GetActiveChannel
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_GetChannelState
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text.HAL_TIM_DMABurstState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .text.HAL_TIMEx_MasterConfigSynchronization
+                0x00000000       0x6c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .text.HAL_TIMEx_RemapConfig
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_info    0x00000000      0x6af build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_abbrev  0x00000000      0x1bf build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_loclists
+                0x00000000       0xc8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_aranges
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_rnglists
+                0x00000000       0x19 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_line    0x00000000      0x21f build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_str     0x00000000      0x6fe build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .comment       0x00000000       0x13 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .debug_frame   0x00000000       0x3c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .ARM.attributes
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_MspInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_MspDeInit
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_DeInit
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_Start
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_Stop
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_Start_DMA
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_Stop_DMA
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_GetValue
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_IRQHandler
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_ConvCpltCallbackCh1
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_ConvHalfCpltCallbackCh1
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_ErrorCallbackCh1
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_DMAUnderrunCallbackCh1
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_GetState
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_GetError
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text.HAL_DAC_SetValue
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.DAC_DMAErrorCh1
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.DAC_DMAHalfConvCpltCh1
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.DAC_DMAConvCpltCh1
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_DualGetValue
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_TriangleWaveGenerate
+                0x00000000       0x34 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_NoiseWaveGenerate
+                0x00000000       0x34 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_DualSetValue
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_ConvCpltCallbackCh2
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.DAC_DMAConvCpltCh2
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_ConvHalfCpltCallbackCh2
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.DAC_DMAHalfConvCpltCh2
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_ErrorCallbackCh2
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.DAC_DMAErrorCh2
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DACEx_DMAUnderrunCallbackCh2
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DAC_Start_DMA
+                0x00000000      0x13c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DAC_Stop_DMA
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DAC_GetValue
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text.HAL_DAC_IRQHandler
+                0x00000000       0x6c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_NVIC_DisableIRQ
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_NVIC_SystemReset
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_NVIC_GetPriority
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_NVIC_SetPendingIRQ
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_NVIC_GetPendingIRQ
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_NVIC_ClearPendingIRQ
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_SYSTICK_Callback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_SYSTICK_IRQHandler
+                0x00000000        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_MPU_Disable
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_MPU_Enable
+                0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text.HAL_MPU_ConfigRegion
+                0x00000000       0x50 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_DeInit
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnableBkUpAccess
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_DisableBkUpAccess
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_ConfigPVD
+                0x00000000       0x78 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnablePVD
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_DisablePVD
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnableWakeUpPin
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_DisableWakeUpPin
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnterSTOPMode
+                0x00000000       0x84 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnterSTANDBYMode
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnableSleepOnExit
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_DisableSleepOnExit
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_EnableSEVOnPend
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_DisableSEVOnPend
+                0x00000000       0x10 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_PVDCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text.HAL_PWR_PVD_IRQHandler
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.FLASH_SetErrorCode
+                0x00000000       0xb8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_Program_IT
+                0x00000000       0x44 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_EndOfOperationCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_OperationErrorCallback
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_IRQHandler
+                0x00000000       0xe8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_Unlock
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_Lock
+                0x00000000       0x1c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_OB_Unlock
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_OB_Lock
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_GetError
+                0x00000000        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.FLASH_WaitForLastOperation
+                0x00000000       0x88 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_Program
+                0x00000000       0x3c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text.HAL_FLASH_OB_Launch
+                0x00000000       0x20 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .bss.pFlash    0x00000000       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_info    0x00000000      0x66a build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_abbrev  0x00000000      0x346 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_loclists
+                0x00000000      0x22a build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_aranges
+                0x00000000       0x80 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_rnglists
+                0x00000000       0x5e build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_line    0x00000000      0x75d build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_str     0x00000000      0x48b build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .comment       0x00000000       0x13 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .debug_frame   0x00000000      0x120 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .ARM.attributes
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.FLASH_OB_ProtectedSectorsConfig
+                0x00000000       0xdc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_Erase
+                0x00000000       0xbc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_Erase_IT
+                0x00000000       0x6c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBProgram
+                0x00000000      0x13c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OBGetConfig
+                0x00000000       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_AdvOBProgram
+                0x00000000       0x68 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_AdvOBGetConfig
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OB_SelectPCROP
+                0x00000000       0x3c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_OB_DeSelectPCROP
+                0x00000000       0x34 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DATAEEPROM_Unlock
+                0x00000000       0x30 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DATAEEPROM_Lock
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DATAEEPROM_Erase
+                0x00000000       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DATAEEPROM_Program
+                0x00000000       0x50 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DATAEEPROM_EnableFixedTimeProgram
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.HAL_FLASHEx_DATAEEPROM_DisableFixedTimeProgram
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text.FLASH_PageErase
+                0x00000000       0x30 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_info    0x00000000      0xef0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_abbrev  0x00000000      0x38e build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_loclists
+                0x00000000      0xa3b build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_aranges
+                0x00000000       0x98 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_rnglists
+                0x00000000       0xc7 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_line    0x00000000      0xc85 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_str     0x00000000      0x7ca build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .comment       0x00000000       0x13 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .debug_frame   0x00000000      0x190 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .ARM.attributes
+                0x00000000       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+ .text          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .data          0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .bss           0x00000000        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_Init
+                0x00000000       0x8c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_DeInit
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_Start
+                0x00000000       0x64 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_Start_IT
+                0x00000000       0x84 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_Abort
+                0x00000000       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_PollForTransfer
+                0x00000000       0xd4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_IRQHandler
+                0x00000000       0xa8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_RegisterCallback
+                0x00000000       0x54 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_UnRegisterCallback
+                0x00000000       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .rodata.HAL_DMA_UnRegisterCallback
+                0x00000000       0x14 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text.HAL_DMA_GetError
+                0x00000000        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .text          0x00000000       0x14 build/startup/startup_stm32l072xx.o
+ .data          0x00000000        0x0 build/startup/startup_stm32l072xx.o
+ .bss           0x00000000        0x0 build/startup/startup_stm32l072xx.o
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.extab     0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .text          0x00000000       0x84 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_info    0x00000000      0x222 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_abbrev  0x00000000      0x186 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_loclists
+                0x00000000      0x1ab /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_aranges
+                0x00000000       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_rnglists
+                0x00000000       0x38 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_line    0x00000000      0x1d1 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_str     0x00000000      0x291 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .comment       0x00000000       0x13 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .debug_frame   0x00000000       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .ARM.attributes
+                0x00000000       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatunsisf.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .data          0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+ .bss           0x00000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00030000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD build/src/main.o
+LOAD build/src/memset.o
+LOAD build/src/libc_init.o
+LOAD build/board/board_init.o
+LOAD build/hal/hal_config.o
+LOAD build/drivers/pressure_sensor/ms58.o
+LOAD build/drivers/pressure_sensor/ms58_hal_wrapper.o
+LOAD build/drivers/i2c_slave/i2c_slave.o
+LOAD build/drivers/dac/dac.o
+LOAD build/app/app.o
+LOAD build/app/sensor_sampling.o
+LOAD build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.o
+LOAD build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+LOAD build/startup/startup_stm32l072xx.o
+LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a
+                0x20005000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000       0xc0
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000       0xc0 build/startup/startup_stm32l072xx.o
+                0x08000000                g_pfnVectors
+                0x080000c0                        . = ALIGN (0x4)
+
+.text           0x080000c0     0x4130
+                0x080000c0                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x080000c0      0x114 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                0x080000c0                __udivsi3
+                0x080000c0                __aeabi_uidiv
+                0x080001cc                __aeabi_uidivmod
+ .text          0x080001d4        0x4 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x080001d4                __aeabi_ldiv0
+                0x080001d4                __aeabi_idiv0
+ .text          0x080001d8       0x74 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                0x080001d8                __aeabi_cfrcmple
+                0x080001e0                __aeabi_cfcmple
+                0x080001e0                __aeabi_cfcmpeq
+                0x080001f0                __aeabi_fcmpeq
+                0x080001fc                __aeabi_fcmplt
+                0x08000210                __aeabi_fcmple
+                0x08000224                __aeabi_fcmpgt
+                0x08000238                __aeabi_fcmpge
+ .text          0x0800024c       0x40 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                0x0800024c                __aeabi_uldivmod
+ .text          0x0800028c       0x50 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+                0x0800028c                __aeabi_lmul
+                0x0800028c                __muldi3
+ .text          0x080002dc       0x30 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+                0x080002dc                __aeabi_f2uiz
+                0x080002dc                __fixunssfsi
+ .text          0x0800030c      0x190 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                0x0800030c                __udivmoddi4
+ .text          0x0800049c      0x458 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+                0x0800049c                __aeabi_fadd
+ .text          0x080008f4      0x22c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+                0x080008f4                __aeabi_fdiv
+ .text          0x08000b20       0x58 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+                0x08000b20                __nesf2
+                0x08000b20                __eqsf2
+ .text          0x08000b78       0xa0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+                0x08000b78                __gtsf2
+                0x08000b78                __gesf2
+ .text          0x08000c18       0xa0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+                0x08000c18                __lesf2
+                0x08000c18                __ltsf2
+ .text          0x08000cb8      0x294 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+                0x08000cb8                __aeabi_fmul
+ .text          0x08000f4c      0x494 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+                0x08000f4c                __aeabi_fsub
+ .text          0x080013e0       0x40 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+                0x080013e0                __aeabi_f2iz
+ .text          0x08001420       0x90 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+                0x08001420                __aeabi_i2f
+ .text          0x080014b0       0x3c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                0x080014b0                __clzsi2
+ .text          0x080014ec       0x18 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                0x080014ec                __clzdi2
+ *(.text*)
+ .text.startup.main
+                0x08001504       0xa4 build/src/main.o
+                0x08001504                main
+ .text.TIM2_IRQHandler
+                0x080015a8       0x10 build/src/main.o
+                0x080015a8                TIM2_IRQHandler
+ .text.HAL_TIM_PeriodElapsedCallback
+                0x080015b8       0x14 build/src/main.o
+                0x080015b8                HAL_TIM_PeriodElapsedCallback
+ .text.memset   0x080015cc       0x14 build/src/memset.o
+                0x080015cc                memset
+ .text.__libc_init_array
+                0x080015e0        0x4 build/src/libc_init.o
+                0x080015e0                __libc_init_array
+ .text.board_init_clock
+                0x080015e4       0x68 build/board/board_init.o
+                0x080015e4                board_init_clock
+ .text.board_init_gpio
+                0x0800164c       0xc8 build/board/board_init.o
+                0x0800164c                board_init_gpio
+ .text.board_init
+                0x08001714       0x40 build/board/board_init.o
+                0x08001714                board_init
+ .text.board_delay_ms
+                0x08001754       0x34 build/board/board_init.o
+                0x08001754                board_delay_ms
+ .text.hal_i2c2_init
+                0x08001788       0x48 build/hal/hal_config.o
+                0x08001788                hal_i2c2_init
+ .text.hal_i2c1_init
+                0x080017d0       0x5c build/hal/hal_config.o
+                0x080017d0                hal_i2c1_init
+ .text.hal_tim2_init
+                0x0800182c       0x44 build/hal/hal_config.o
+                0x0800182c                hal_tim2_init
+ .text.hal_tim2_start
+                0x08001870       0x14 build/hal/hal_config.o
+                0x08001870                hal_tim2_start
+ .text.hal_dac1_init
+                0x08001884       0x54 build/hal/hal_config.o
+                0x08001884                hal_dac1_init
+ .text.HAL_I2C_MspInit
+                0x080018d8       0xac build/hal/hal_config.o
+                0x080018d8                HAL_I2C_MspInit
+ .text.HAL_TIM_Base_MspInit
+                0x08001984       0x1c build/hal/hal_config.o
+                0x08001984                HAL_TIM_Base_MspInit
+ .text.HAL_DAC_MspInit
+                0x080019a0       0x54 build/hal/hal_config.o
+                0x080019a0                HAL_DAC_MspInit
+ .text.ms5837_reset
+                0x080019f4       0x18 build/drivers/pressure_sensor/ms58.o
+                0x080019f4                ms5837_reset
+ .text.ms5837_read_prom
+                0x08001a0c       0x48 build/drivers/pressure_sensor/ms58.o
+                0x08001a0c                ms5837_read_prom
+ .text.ms5837_read_adc
+                0x08001a54       0x34 build/drivers/pressure_sensor/ms58.o
+                0x08001a54                ms5837_read_adc
+ .text.ms5837_start_conversion
+                0x08001a88        0xc build/drivers/pressure_sensor/ms58.o
+                0x08001a88                ms5837_start_conversion
+ .text.ms5837_calculate_pressure_temperature
+                0x08001a94      0x104 build/drivers/pressure_sensor/ms58.o
+                0x08001a94                ms5837_calculate_pressure_temperature
+ .text.ms58_hal_delay
+                0x08001b98        0x8 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .text.ms58_hal_write_cmd
+                0x08001ba0       0x28 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .text.ms58_hal_read_data
+                0x08001bc8       0x2c build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .text.ms58_get_hal_handle
+                0x08001bf4       0x10 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+                0x08001bf4                ms58_get_hal_handle
+ .text.i2c_slave_init
+                0x08001c04       0x48 build/drivers/i2c_slave/i2c_slave.o
+                0x08001c04                i2c_slave_init
+ .text.i2c_slave_start
+                0x08001c4c       0x48 build/drivers/i2c_slave/i2c_slave.o
+                0x08001c4c                i2c_slave_start
+ .text.i2c_slave_register_rx_callback
+                0x08001c94        0xc build/drivers/i2c_slave/i2c_slave.o
+                0x08001c94                i2c_slave_register_rx_callback
+ .text.i2c_slave_get_received_value
+                0x08001ca0       0x28 build/drivers/i2c_slave/i2c_slave.o
+                0x08001ca0                i2c_slave_get_received_value
+ .text.i2c_slave_set_tx_value
+                0x08001cc8       0x1c build/drivers/i2c_slave/i2c_slave.o
+                0x08001cc8                i2c_slave_set_tx_value
+ .text.HAL_I2C_AddrCallback
+                0x08001ce4       0x7c build/drivers/i2c_slave/i2c_slave.o
+                0x08001ce4                HAL_I2C_AddrCallback
+ .text.HAL_I2C_SlaveRxCpltCallback
+                0x08001d60       0x44 build/drivers/i2c_slave/i2c_slave.o
+                0x08001d60                HAL_I2C_SlaveRxCpltCallback
+ .text.HAL_I2C_SlaveTxCpltCallback
+                0x08001da4       0x18 build/drivers/i2c_slave/i2c_slave.o
+                0x08001da4                HAL_I2C_SlaveTxCpltCallback
+ .text.HAL_I2C_ErrorCallback
+                0x08001dbc       0x2c build/drivers/i2c_slave/i2c_slave.o
+                0x08001dbc                HAL_I2C_ErrorCallback
+ .text.HAL_I2C_ListenCpltCallback
+                0x08001de8       0x24 build/drivers/i2c_slave/i2c_slave.o
+                0x08001de8                HAL_I2C_ListenCpltCallback
+ .text.dac_init
+                0x08001e0c       0x64 build/drivers/dac/dac.o
+                0x08001e0c                dac_init
+ .text.dac_set_voltage_ch1
+                0x08001e70       0x7c build/drivers/dac/dac.o
+                0x08001e70                dac_set_voltage_ch1
+ .text.dac_set_voltage_ch2
+                0x08001eec       0x7c build/drivers/dac/dac.o
+                0x08001eec                dac_set_voltage_ch2
+ .text.app_i2c_slave_rx_callback
+                0x08001f68        0x4 build/app/app.o
+ .text.app_init
+                0x08001f6c       0x24 build/app/app.o
+                0x08001f6c                app_init
+ .text.app_main_loop
+                0x08001f90      0x13c build/app/app.o
+                0x08001f90                app_main_loop
+ .text.sensor_sampling_init
+                0x080020cc       0x60 build/app/sensor_sampling.o
+                0x080020cc                sensor_sampling_init
+ .text.sensor_sampling_start
+                0x0800212c       0x18 build/app/sensor_sampling.o
+                0x0800212c                sensor_sampling_start
+ .text.sensor_sampling_get_data
+                0x08002144       0x20 build/app/sensor_sampling.o
+                0x08002144                sensor_sampling_get_data
+ .text.sensor_sampling_timer_isr
+                0x08002164      0x108 build/app/sensor_sampling.o
+                0x08002164                sensor_sampling_timer_isr
+ .text.SystemInit
+                0x0800226c        0x4 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                0x0800226c                SystemInit
+ .text.SystemCoreClockUpdate
+                0x08002270       0xc4 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                0x08002270                SystemCoreClockUpdate
+ .text.HAL_MspInit
+                0x08002334        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x08002334                HAL_MspInit
+ .text.HAL_InitTick
+                0x08002338       0x4c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x08002338                HAL_InitTick
+ .text.HAL_Init
+                0x08002384       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x08002384                HAL_Init
+ .text.HAL_GetTick
+                0x080023ac        0xc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x080023ac                HAL_GetTick
+ .text.HAL_Delay
+                0x080023b8       0x24 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x080023b8                HAL_Delay
+ .text.HAL_RCC_GetSysClockFreq
+                0x080023dc       0x94 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x080023dc                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_OscConfig
+                0x08002470      0x5d8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x08002470                HAL_RCC_OscConfig
+ .text.HAL_RCC_ClockConfig
+                0x08002a48      0x1b4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                0x08002a48                HAL_RCC_ClockConfig
+ .text.HAL_GPIO_Init
+                0x08002bfc      0x21c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+                0x08002bfc                HAL_GPIO_Init
+ .text.I2C_IsAcknowledgeFailed.part.0
+                0x08002e18       0x98 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_WaitOnRXNEFlagUntilTimeout
+                0x08002eb0       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_WaitOnTXISFlagUntilTimeout
+                0x08002f4c       0x68 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_WaitOnSTOPFlagUntilTimeout
+                0x08002fb4       0x60 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_Init
+                0x08003014       0xb0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x08003014                HAL_I2C_Init
+ .text.HAL_I2C_Master_Transmit
+                0x080030c4      0x1bc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x080030c4                HAL_I2C_Master_Transmit
+ .text.HAL_I2C_Master_Receive
+                0x08003280      0x1c0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x08003280                HAL_I2C_Master_Receive
+ .text.HAL_I2C_Slave_Seq_Transmit_IT
+                0x08003440       0xe8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x08003440                HAL_I2C_Slave_Seq_Transmit_IT
+ .text.HAL_I2C_Slave_Seq_Receive_IT
+                0x08003528       0xec build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x08003528                HAL_I2C_Slave_Seq_Receive_IT
+ .text.HAL_I2C_EnableListen_IT
+                0x08003614       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x08003614                HAL_I2C_EnableListen_IT
+ .text.I2C_ITSlaveSeqCplt
+                0x0800363c       0x9c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_ITAddrCplt.part.0
+                0x080036d8       0x88 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_ITListenCplt
+                0x08003760       0x64 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_AbortCpltCallback
+                0x080037c4        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x080037c4                HAL_I2C_AbortCpltCallback
+ .text.I2C_DMAAbort
+                0x080037c8       0x40 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_ITError
+                0x08003808      0x134 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_ITSlaveCplt.constprop.0
+                0x0800393c      0x150 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.I2C_Slave_ISR_IT
+                0x08003a8c      0x15c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .text.HAL_I2C_GetError
+                0x08003be8        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                0x08003be8                HAL_I2C_GetError
+ .text.HAL_I2CEx_ConfigAnalogFilter
+                0x08003bec       0x4c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+                0x08003bec                HAL_I2CEx_ConfigAnalogFilter
+ .text.HAL_TIM_Base_Init
+                0x08003c38       0x94 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003c38                HAL_TIM_Base_Init
+ .text.HAL_TIM_Base_Start_IT
+                0x08003ccc       0x64 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003ccc                HAL_TIM_Base_Start_IT
+ .text.HAL_TIM_OC_DelayElapsedCallback
+                0x08003d30        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003d30                HAL_TIM_OC_DelayElapsedCallback
+ .text.HAL_TIM_IC_CaptureCallback
+                0x08003d34        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003d34                HAL_TIM_IC_CaptureCallback
+ .text.HAL_TIM_PWM_PulseFinishedCallback
+                0x08003d38        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003d38                HAL_TIM_PWM_PulseFinishedCallback
+ .text.HAL_TIM_TriggerCallback
+                0x08003d3c        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003d3c                HAL_TIM_TriggerCallback
+ .text.HAL_TIM_IRQHandler
+                0x08003d40      0x11c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                0x08003d40                HAL_TIM_IRQHandler
+ .text.HAL_DAC_Init
+                0x08003e5c       0x28 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+                0x08003e5c                HAL_DAC_Init
+ .text.HAL_DAC_ConfigChannel
+                0x08003e84       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+                0x08003e84                HAL_DAC_ConfigChannel
+ .text.HAL_DAC_Start
+                0x08003ecc       0x64 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+                0x08003ecc                HAL_DAC_Start
+ .text.HAL_DAC_SetValue
+                0x08003f30       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+                0x08003f30                HAL_DAC_SetValue
+ .text.HAL_NVIC_SetPriority
+                0x08003f5c       0x58 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x08003f5c                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x08003fb4       0x18 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x08003fb4                HAL_NVIC_EnableIRQ
+ .text.HAL_SYSTICK_Config
+                0x08003fcc       0x34 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                0x08003fcc                HAL_SYSTICK_Config
+ .text.HAL_PWR_EnterSLEEPMode
+                0x08004000       0x7c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+                0x08004000                HAL_PWR_EnterSLEEPMode
+ .text.HAL_DMA_Abort_IT
+                0x0800407c       0x50 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+                0x0800407c                HAL_DMA_Abort_IT
+ .text.HAL_DMA_GetState
+                0x080040cc        0x8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+                0x080040cc                HAL_DMA_GetState
+ .text.Reset_Handler
+                0x080040d4       0x50 build/startup/startup_stm32l072xx.o
+                0x080040d4                Reset_Handler
+ .text.Default_Handler
+                0x08004124        0x2 build/startup/startup_stm32l072xx.o
+                0x08004124                LPTIM1_IRQHandler
+                0x08004124                HardFault_Handler
+                0x08004124                ADC1_COMP_IRQHandler
+                0x08004124                SysTick_Handler
+                0x08004124                PVD_IRQHandler
+                0x08004124                PendSV_Handler
+                0x08004124                NMI_Handler
+                0x08004124                I2C1_IRQHandler
+                0x08004124                RCC_CRS_IRQHandler
+                0x08004124                SPI1_IRQHandler
+                0x08004124                TIM6_DAC_IRQHandler
+                0x08004124                EXTI2_3_IRQHandler
+                0x08004124                I2C2_IRQHandler
+                0x08004124                RTC_IRQHandler
+                0x08004124                DMA1_Channel4_5_6_7_IRQHandler
+                0x08004124                TIM3_IRQHandler
+                0x08004124                EXTI4_15_IRQHandler
+                0x08004124                DMA1_Channel1_IRQHandler
+                0x08004124                USART4_5_IRQHandler
+                0x08004124                Default_Handler
+                0x08004124                TIM22_IRQHandler
+                0x08004124                TIM7_IRQHandler
+                0x08004124                EXTI0_1_IRQHandler
+                0x08004124                USB_IRQHandler
+                0x08004124                I2C3_IRQHandler
+                0x08004124                SPI2_IRQHandler
+                0x08004124                SVC_Handler
+                0x08004124                TIM21_IRQHandler
+                0x08004124                WWDG_IRQHandler
+                0x08004124                DMA1_Channel2_3_IRQHandler
+                0x08004124                USART2_IRQHandler
+                0x08004124                FLASH_IRQHandler
+                0x08004124                USART1_IRQHandler
+                0x08004124                RNG_LPUART1_IRQHandler
+                0x08004124                TSC_IRQHandler
+ *(.rodata)
+ *fill*         0x08004126        0x2 
+ .rodata        0x08004128        0xc build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .rodata        0x08004134       0x7c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ *(.rodata*)
+ .rodata.sensor_sampling_timer_isr
+                0x080041b0       0x24 build/app/sensor_sampling.o
+ .rodata.PLLMulTable
+                0x080041d4        0x9 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                0x080041d4                PLLMulTable
+ *fill*         0x080041dd        0x3 
+ .rodata.AHBPrescTable
+                0x080041e0       0x10 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                0x080041e0                AHBPrescTable
+                0x080041f0                        . = ALIGN (0x4)
+                0x080041f0                        _etext = .
+                0x080041f8                        _sidata = LOADADDR (.data)
+
+.glue_7         0x080041f0        0x0
+ .glue_7        0x080041f0        0x0 linker stubs
+
+.glue_7t        0x080041f0        0x0
+ .glue_7t       0x080041f0        0x0 linker stubs
+
+.vfp11_veneer   0x080041f0        0x0
+ .vfp11_veneer  0x080041f0        0x0 linker stubs
+
+.v4_bx          0x080041f0        0x0
+ .v4_bx         0x080041f0        0x0 linker stubs
+
+.iplt           0x080041f0        0x0
+ .iplt          0x080041f0        0x0 build/src/main.o
+
+.rel.dyn        0x080041f0        0x0
+ .rel.iplt      0x080041f0        0x0 build/src/main.o
+
+.ARM.exidx      0x080041f0        0x8
+ .ARM.exidx     0x080041f0        0x8 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+
+.data           0x20000000       0x10 load address 0x080041f8
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ .data.sysclk_freq
+                0x20000000        0x4 build/board/board_init.o
+ .data.SystemCoreClock
+                0x20000004        0x4 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                0x20000004                SystemCoreClock
+ .data.uwTickFreq
+                0x20000008        0x1 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x20000008                uwTickFreq
+ *fill*         0x20000009        0x3 
+ .data.uwTickPrio
+                0x2000000c        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x2000000c                uwTickPrio
+                0x20000010                        . = ALIGN (0x4)
+                0x20000010                        _edata = .
+
+.igot.plt       0x20000010        0x0 load address 0x08004208
+ .igot.plt      0x20000010        0x0 build/src/main.o
+
+.bss            0x20000010      0x168 load address 0x08004208
+                0x20000010                        . = ALIGN (0x4)
+                0x20000010                        _sbss = .
+ *(.bss)
+ *(.bss*)
+ .bss.htim2     0x20000010       0x40 build/src/main.o
+                0x20000010                htim2
+ .bss.hdac1     0x20000050       0x14 build/src/main.o
+                0x20000050                hdac1
+ .bss.hi2c2     0x20000064       0x4c build/src/main.o
+                0x20000064                hi2c2
+ .bss.hi2c1     0x200000b0       0x4c build/src/main.o
+                0x200000b0                hi2c1
+ .bss.tx_callback
+                0x200000fc        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.rx_callback
+                0x20000100        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.tx_value_set
+                0x20000104        0x1 build/drivers/i2c_slave/i2c_slave.o
+ *fill*         0x20000105        0x3 
+ .bss.tx_value  0x20000108        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.tx_buffer
+                0x2000010c        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.rx_value_ready
+                0x20000110        0x1 build/drivers/i2c_slave/i2c_slave.o
+ *fill*         0x20000111        0x3 
+ .bss.rx_value  0x20000114        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.rx_buffer
+                0x20000118        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.i2c_slave_started
+                0x2000011c        0x1 build/drivers/i2c_slave/i2c_slave.o
+ .bss.i2c_slave_initialized
+                0x2000011d        0x1 build/drivers/i2c_slave/i2c_slave.o
+ *fill*         0x2000011e        0x2 
+ .bss.i2c_slave_handle
+                0x20000120        0x4 build/drivers/i2c_slave/i2c_slave.o
+ .bss.dac_initialized
+                0x20000124        0x1 build/drivers/dac/dac.o
+ *fill*         0x20000125        0x3 
+ .bss.reading_count
+                0x20000128        0x4 build/app/app.o
+ .bss.latest_sensor_data
+                0x2000012c        0xc build/app/app.o
+ .bss.app_initialized
+                0x20000138        0x1 build/app/app.o
+ *fill*         0x20000139        0x3 
+ .bss.wait_counter
+                0x2000013c        0x4 build/app/sensor_sampling.o
+ .bss.temperature_adc
+                0x20000140        0x4 build/app/sensor_sampling.o
+ .bss.pressure_adc
+                0x20000144        0x4 build/app/sensor_sampling.o
+ .bss.latest_data
+                0x20000148        0xc build/app/sensor_sampling.o
+ .bss.sensor_state
+                0x20000154        0x1 build/app/sensor_sampling.o
+ .bss.calibration_loaded
+                0x20000155        0x1 build/app/sensor_sampling.o
+ *fill*         0x20000156        0x2 
+ .bss.calibration_data
+                0x20000158        0xe build/app/sensor_sampling.o
+ *fill*         0x20000166        0x2 
+ .bss.sensor_handle
+                0x20000168        0xc build/app/sensor_sampling.o
+ .bss.uwTick    0x20000174        0x4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                0x20000174                uwTick
+ *(COMMON)
+                0x20000178                        . = ALIGN (0x4)
+                0x20000178                        _ebss = .
+
+._user_heap_stack
+                0x20000178      0x600 load address 0x08004208
+                0x20000178                        . = ALIGN (0x8)
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000378                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000178      0x200 
+                0x20000778                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000378      0x400 
+                0x20000778                        . = ALIGN (0x8)
+OUTPUT(build/firmware.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000    0x168f1
+ .debug_info    0x00000000      0xdfe build/src/main.o
+ .debug_info    0x00000dfe       0xff build/src/memset.o
+ .debug_info    0x00000efd       0x3e build/src/libc_init.o
+ .debug_info    0x00000f3b      0x93f build/board/board_init.o
+ .debug_info    0x0000187a     0x12e8 build/hal/hal_config.o
+ .debug_info    0x00002b62      0x693 build/drivers/pressure_sensor/ms58.o
+ .debug_info    0x000031f5      0x867 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_info    0x00003a5c      0xb3e build/drivers/i2c_slave/i2c_slave.o
+ .debug_info    0x0000459a      0xc48 build/drivers/dac/dac.o
+ .debug_info    0x000051e2      0x43e build/app/app.o
+ .debug_info    0x00005620      0x4de build/app/sensor_sampling.o
+ .debug_info    0x00005afe      0x2e4 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_info    0x00005de2      0x969 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_info    0x0000674b      0xd0d build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_info    0x00007458      0x638 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_info    0x00007a90     0x5475 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_info    0x0000cf05      0x85a build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_info    0x0000d75f     0x418b build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_info    0x000118ea      0x852 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_info    0x0001213c      0xb2e build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_info    0x00012c6a      0x9b8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_info    0x00013622      0x629 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_info    0x00013c4b      0x888 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_info    0x000144d3       0x30 build/startup/startup_stm32l072xx.o
+ .debug_info    0x00014503       0x3e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_info    0x00014541       0x3c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_info    0x0001457d       0x7e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_info    0x000145fb       0x31 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x0001462c      0x420 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_info    0x00014a4c      0x335 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .debug_info    0x00014d81      0x3a8 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_info    0x00015129      0x326 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_info    0x0001544f      0x340 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_info    0x0001578f      0x208 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_info    0x00015997      0x224 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_info    0x00015bbb      0x224 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_info    0x00015ddf      0x3ae /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_info    0x0001618d      0x32f /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_info    0x000164bc      0x1ad /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_info    0x00016669      0x233 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .debug_info    0x0001689c       0x31 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .debug_info    0x000168cd       0x24 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+
+.debug_abbrev   0x00000000     0x4538
+ .debug_abbrev  0x00000000      0x32b build/src/main.o
+ .debug_abbrev  0x0000032b       0xb9 build/src/memset.o
+ .debug_abbrev  0x000003e4       0x33 build/src/libc_init.o
+ .debug_abbrev  0x00000417      0x2c9 build/board/board_init.o
+ .debug_abbrev  0x000006e0      0x28e build/hal/hal_config.o
+ .debug_abbrev  0x0000096e      0x26d build/drivers/pressure_sensor/ms58.o
+ .debug_abbrev  0x00000bdb      0x272 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_abbrev  0x00000e4d      0x325 build/drivers/i2c_slave/i2c_slave.o
+ .debug_abbrev  0x00001172      0x27e build/drivers/dac/dac.o
+ .debug_abbrev  0x000013f0      0x1c7 build/app/app.o
+ .debug_abbrev  0x000015b7      0x1de build/app/sensor_sampling.o
+ .debug_abbrev  0x00001795      0x13e build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_abbrev  0x000018d3      0x304 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_abbrev  0x00001bd7      0x2f0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_abbrev  0x00001ec7      0x200 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_abbrev  0x000020c7      0x3c3 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_abbrev  0x0000248a      0x1c3 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_abbrev  0x0000264d      0x365 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_abbrev  0x000029b2      0x1d5 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_abbrev  0x00002b87      0x283 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_abbrev  0x00002e0a      0x2be build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_abbrev  0x000030c8      0x185 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_abbrev  0x0000324d      0x213 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_abbrev  0x00003460       0x1d build/startup/startup_stm32l072xx.o
+ .debug_abbrev  0x0000347d       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000034a5       0x26 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000034cb       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_abbrev  0x000034f3       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000351b      0x14a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_abbrev  0x00003665       0xf3 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .debug_abbrev  0x00003758      0x126 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x0000387e      0x172 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_abbrev  0x000039f0      0x159 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_abbrev  0x00003b49      0x147 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_abbrev  0x00003c90      0x160 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_abbrev  0x00003df0      0x160 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_abbrev  0x00003f50      0x16a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_abbrev  0x000040ba      0x172 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_abbrev  0x0000422c      0x15a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_abbrev  0x00004386      0x176 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .debug_abbrev  0x000044fc       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .debug_abbrev  0x00004524       0x14 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+
+.debug_loclists
+                0x00000000     0xf63b
+ .debug_loclists
+                0x00000000       0x5d build/src/main.o
+ .debug_loclists
+                0x0000005d       0x80 build/src/memset.o
+ .debug_loclists
+                0x000000dd      0x12d build/board/board_init.o
+ .debug_loclists
+                0x0000020a       0xe2 build/hal/hal_config.o
+ .debug_loclists
+                0x000002ec      0x3d4 build/drivers/pressure_sensor/ms58.o
+ .debug_loclists
+                0x000006c0       0xf3 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_loclists
+                0x000007b3      0x261 build/drivers/i2c_slave/i2c_slave.o
+ .debug_loclists
+                0x00000a14      0x5f3 build/drivers/dac/dac.o
+ .debug_loclists
+                0x00001007      0x198 build/app/app.o
+ .debug_loclists
+                0x0000119f       0x8f build/app/sensor_sampling.o
+ .debug_loclists
+                0x0000122e      0x125 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_loclists
+                0x00001353       0xfc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_loclists
+                0x0000144f      0x4f3 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_loclists
+                0x00001942      0x42f build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_loclists
+                0x00001d71     0x512e build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_loclists
+                0x00006e9f      0x155 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_loclists
+                0x00006ff4     0x3ccc build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_loclists
+                0x0000acc0      0x2af build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_loclists
+                0x0000af6f      0x7ba build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_loclists
+                0x0000b729      0x330 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_loclists
+                0x0000ba59      0x185 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_loclists
+                0x0000bbde      0x63c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_loclists
+                0x0000c21a      0x11c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_loclists
+                0x0000c336       0x2e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .debug_loclists
+                0x0000c364      0x28b /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_loclists
+                0x0000c5ef     0x1007 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_loclists
+                0x0000d5f6      0x601 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_loclists
+                0x0000dbf7       0x9a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_loclists
+                0x0000dc91      0x147 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_loclists
+                0x0000ddd8      0x175 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_loclists
+                0x0000df4d      0x672 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_loclists
+                0x0000e5bf      0xdb7 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_loclists
+                0x0000f376       0x81 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_loclists
+                0x0000f3f7      0x244 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+
+.debug_aranges  0x00000000     0x10c0
+ .debug_aranges
+                0x00000000       0x48 build/src/main.o
+ .debug_aranges
+                0x00000048       0x20 build/src/memset.o
+ .debug_aranges
+                0x00000068       0x20 build/src/libc_init.o
+ .debug_aranges
+                0x00000088       0x58 build/board/board_init.o
+ .debug_aranges
+                0x000000e0       0x78 build/hal/hal_config.o
+ .debug_aranges
+                0x00000158       0x48 build/drivers/pressure_sensor/ms58.o
+ .debug_aranges
+                0x000001a0       0x38 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_aranges
+                0x000001d8       0x80 build/drivers/i2c_slave/i2c_slave.o
+ .debug_aranges
+                0x00000258       0x58 build/drivers/dac/dac.o
+ .debug_aranges
+                0x000002b0       0x40 build/app/app.o
+ .debug_aranges
+                0x000002f0       0x40 build/app/sensor_sampling.o
+ .debug_aranges
+                0x00000330       0x28 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_aranges
+                0x00000358      0x110 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_aranges
+                0x00000468       0x80 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_aranges
+                0x000004e8       0x58 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_aranges
+                0x00000540      0x258 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_aranges
+                0x00000798       0x48 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_aranges
+                0x000007e0      0x370 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_aranges
+                0x00000b50       0xa8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_aranges
+                0x00000bf8       0xb8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_aranges
+                0x00000cb0       0x90 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_aranges
+                0x00000d40       0xa0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_aranges
+                0x00000de0       0x78 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_aranges
+                0x00000e58       0x28 build/startup/startup_stm32l072xx.o
+ .debug_aranges
+                0x00000e80       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000ea0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000ec0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_aranges
+                0x00000ee0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000f00       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_aranges
+                0x00000f20       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .debug_aranges
+                0x00000f40       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x00000f60       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_aranges
+                0x00000f80       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_aranges
+                0x00000fa0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_aranges
+                0x00000fc0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_aranges
+                0x00000fe0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_aranges
+                0x00001000       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_aranges
+                0x00001020       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_aranges
+                0x00001040       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_aranges
+                0x00001060       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .debug_aranges
+                0x00001080       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .debug_aranges
+                0x000010a0       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+
+.debug_rnglists
+                0x00000000     0x1b83
+ .debug_rnglists
+                0x00000000       0x4a build/src/main.o
+ .debug_rnglists
+                0x0000004a       0x13 build/src/memset.o
+ .debug_rnglists
+                0x0000005d       0x13 build/src/libc_init.o
+ .debug_rnglists
+                0x00000070       0x86 build/board/board_init.o
+ .debug_rnglists
+                0x000000f6       0x86 build/hal/hal_config.o
+ .debug_rnglists
+                0x0000017c       0x63 build/drivers/pressure_sensor/ms58.o
+ .debug_rnglists
+                0x000001df       0x25 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_rnglists
+                0x00000204       0x76 build/drivers/i2c_slave/i2c_slave.o
+ .debug_rnglists
+                0x0000027a       0xef build/drivers/dac/dac.o
+ .debug_rnglists
+                0x00000369       0x2c build/app/app.o
+ .debug_rnglists
+                0x00000395       0x38 build/app/sensor_sampling.o
+ .debug_rnglists
+                0x000003cd       0x1a build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_rnglists
+                0x000003e7       0xc7 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_rnglists
+                0x000004ae       0xe0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_rnglists
+                0x0000058e       0x3f build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_rnglists
+                0x000005cd      0x7c1 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_rnglists
+                0x00000d8e       0x31 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_rnglists
+                0x00000dbf      0x587 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_rnglists
+                0x00001346       0x79 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_rnglists
+                0x000013bf       0x86 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_rnglists
+                0x00001445       0x97 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_rnglists
+                0x000014dc       0x74 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_rnglists
+                0x00001550       0x7d build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_rnglists
+                0x000015cd       0x22 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_rnglists
+                0x000015ef      0x1b7 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_rnglists
+                0x000017a6       0x81 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_rnglists
+                0x00001827       0x23 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_rnglists
+                0x0000184a       0x2d /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_rnglists
+                0x00001877       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_rnglists
+                0x0000189f       0x83 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_rnglists
+                0x00001922      0x206 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_rnglists
+                0x00001b28       0x1a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_rnglists
+                0x00001b42       0x41 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+
+.debug_line     0x00000000    0x1459b
+ .debug_line    0x00000000      0x3b9 build/src/main.o
+ .debug_line    0x000003b9       0xc5 build/src/memset.o
+ .debug_line    0x0000047e       0x40 build/src/libc_init.o
+ .debug_line    0x000004be      0x490 build/board/board_init.o
+ .debug_line    0x0000094e      0x5b8 build/hal/hal_config.o
+ .debug_line    0x00000f06      0x3fb build/drivers/pressure_sensor/ms58.o
+ .debug_line    0x00001301      0x1f7 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_line    0x000014f8      0x4e1 build/drivers/i2c_slave/i2c_slave.o
+ .debug_line    0x000019d9      0x4a4 build/drivers/dac/dac.o
+ .debug_line    0x00001e7d      0x23d build/app/app.o
+ .debug_line    0x000020ba      0x31b build/app/sensor_sampling.o
+ .debug_line    0x000023d5      0x1eb build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_line    0x000025c0      0x66d build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_line    0x00002c2d     0x10df build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_line    0x00003d0c      0x767 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_line    0x00004473     0x5f84 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_line    0x0000a3f7      0x369 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_line    0x0000a760     0x4863 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_line    0x0000efc3      0x409 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_line    0x0000f3cc      0x784 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_line    0x0000fb50      0x635 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_line    0x00010185      0x489 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_line    0x0001060e      0xa02 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_line    0x00011010       0x7c build/startup/startup_stm32l072xx.o
+ .debug_line    0x0001108c       0x56 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_line    0x000110e2       0x4a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .debug_line    0x0001112c       0x5f /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .debug_line    0x0001118b       0x55 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000111e0      0x10a /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_line    0x000112ea       0xb2 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .debug_line    0x0001139c      0x1b6 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_line    0x00011552      0xdc5 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_line    0x00012317      0x4f8 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_line    0x0001280f      0x17f /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_line    0x0001298e      0x247 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_line    0x00012bd5      0x242 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_line    0x00012e17      0x501 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_line    0x00013318      0xea9 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_line    0x000141c1      0x134 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_line    0x000142f5      0x1f4 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .debug_line    0x000144e9       0x5e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .debug_line    0x00014547       0x54 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+
+.debug_str      0x00000000     0x500a
+ .debug_str     0x00000000     0x500a build/src/main.o
+                                0xbb2 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/src/memset.o
+                                0x12d (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/src/libc_init.o
+                                 0xd7 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/board/board_init.o
+                                0x501 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/hal_config.o
+                                0xed3 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/drivers/pressure_sensor/ms58.o
+                                0x339 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+                                0x769 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/drivers/i2c_slave/i2c_slave.o
+                                0x977 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/drivers/dac/dac.o
+                                0x65e (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/app/app.o
+                                0x3c5 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/app/sensor_sampling.o
+                                0x4c9 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                                0x2af (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                                0x859 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                                0x6e6 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+                                0x404 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                                0xf25 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+                                0x7e4 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                               0x1537 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+                                0x666 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+                                0x74a (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                                0x6e9 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+                                0x490 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+                                0x603 (size before relaxing)
+ .debug_str     0x0000500a        0x0 build/startup/startup_stm32l072xx.o
+                                 0x76 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                                 0xd4 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                                 0xd5 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                                0x135 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                 0xca (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+                                0x677 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+                                0x666 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                                0x64d (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+                                0x2ce (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+                                0x2f3 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+                                0x1fc (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+                                0x220 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+                                0x220 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+                                0x2f3 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+                                0x2ce (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+                                0x206 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+                                0x295 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                                 0xc2 (size before relaxing)
+ .debug_str     0x0000500a        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                                 0xb9 (size before relaxing)
+
+.comment        0x00000000       0x12
+ .comment       0x00000000       0x12 build/src/main.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/src/memset.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/src/libc_init.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/board/board_init.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/hal_config.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/drivers/pressure_sensor/ms58.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/drivers/i2c_slave/i2c_slave.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/drivers/dac/dac.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/app/app.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/app/sensor_sampling.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+                                 0x13 (size before relaxing)
+ .comment       0x00000012        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+                                 0x13 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2c build/src/main.o
+ .ARM.attributes
+                0x0000002c       0x2c build/src/memset.o
+ .ARM.attributes
+                0x00000058       0x2c build/src/libc_init.o
+ .ARM.attributes
+                0x00000084       0x2c build/board/board_init.o
+ .ARM.attributes
+                0x000000b0       0x2c build/hal/hal_config.o
+ .ARM.attributes
+                0x000000dc       0x2c build/drivers/pressure_sensor/ms58.o
+ .ARM.attributes
+                0x00000108       0x2c build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .ARM.attributes
+                0x00000134       0x2c build/drivers/i2c_slave/i2c_slave.o
+ .ARM.attributes
+                0x00000160       0x2c build/drivers/dac/dac.o
+ .ARM.attributes
+                0x0000018c       0x2c build/app/app.o
+ .ARM.attributes
+                0x000001b8       0x2c build/app/sensor_sampling.o
+ .ARM.attributes
+                0x000001e4       0x2c build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .ARM.attributes
+                0x00000210       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .ARM.attributes
+                0x0000023c       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .ARM.attributes
+                0x00000268       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .ARM.attributes
+                0x00000294       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .ARM.attributes
+                0x000002c0       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .ARM.attributes
+                0x000002ec       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .ARM.attributes
+                0x00000318       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .ARM.attributes
+                0x00000344       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .ARM.attributes
+                0x00000370       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .ARM.attributes
+                0x0000039c       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .ARM.attributes
+                0x000003c8       0x2c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .ARM.attributes
+                0x000003f4       0x22 build/startup/startup_stm32l072xx.o
+ .ARM.attributes
+                0x00000416       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000434       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000452       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+ .ARM.attributes
+                0x00000470       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000048e       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .ARM.attributes
+                0x000004ba       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .ARM.attributes
+                0x000004e6       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000512       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .ARM.attributes
+                0x0000053e       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .ARM.attributes
+                0x0000056a       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .ARM.attributes
+                0x00000596       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .ARM.attributes
+                0x000005c2       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .ARM.attributes
+                0x000005ee       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .ARM.attributes
+                0x0000061a       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .ARM.attributes
+                0x00000646       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .ARM.attributes
+                0x00000672       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+ .ARM.attributes
+                0x0000069e       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+ .ARM.attributes
+                0x000006bc       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+
+.debug_frame    0x00000000     0x2724
+ .debug_frame   0x00000000       0xa0 build/src/main.o
+ .debug_frame   0x000000a0       0x28 build/src/memset.o
+ .debug_frame   0x000000c8       0x20 build/src/libc_init.o
+ .debug_frame   0x000000e8       0xc8 build/board/board_init.o
+ .debug_frame   0x000001b0      0x12c build/hal/hal_config.o
+ .debug_frame   0x000002dc       0xe0 build/drivers/pressure_sensor/ms58.o
+ .debug_frame   0x000003bc       0x74 build/drivers/pressure_sensor/ms58_hal_wrapper.o
+ .debug_frame   0x00000430      0x128 build/drivers/i2c_slave/i2c_slave.o
+ .debug_frame   0x00000558       0xc8 build/drivers/dac/dac.o
+ .debug_frame   0x00000620       0x80 build/app/app.o
+ .debug_frame   0x000006a0       0x88 build/app/sensor_sampling.o
+ .debug_frame   0x00000728       0x38 build/hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.o
+ .debug_frame   0x00000760      0x234 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.o
+ .debug_frame   0x00000994      0x148 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.o
+ .debug_frame   0x00000adc       0xd4 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.o
+ .debug_frame   0x00000bb0      0x82c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.o
+ .debug_frame   0x000013dc       0xa8 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.o
+ .debug_frame   0x00001484      0x984 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.o
+ .debug_frame   0x00001e08      0x158 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.o
+ .debug_frame   0x00001f60      0x1d0 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.o
+ .debug_frame   0x00002130      0x11c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.o
+ .debug_frame   0x0000224c      0x144 build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.o
+ .debug_frame   0x00002390      0x13c build/hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.o
+ .debug_frame   0x000024cc       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000024ec       0x34 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_muldi3.o)
+ .debug_frame   0x00002520       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_fixunssfsi.o)
+ .debug_frame   0x00002548       0x3c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x00002584       0x34 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(addsf3.o)
+ .debug_frame   0x000025b8       0x38 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(divsf3.o)
+ .debug_frame   0x000025f0       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(eqsf2.o)
+ .debug_frame   0x0000261c       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(gesf2.o)
+ .debug_frame   0x00002644       0x28 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(lesf2.o)
+ .debug_frame   0x0000266c       0x38 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(mulsf3.o)
+ .debug_frame   0x000026a4       0x34 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(subsf3.o)
+ .debug_frame   0x000026d8       0x20 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(fixsfsi.o)
+ .debug_frame   0x000026f8       0x2c /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(floatsisf.o)
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 build/startup/startup_stm32l072xx.o
+
+.debug_line_str
+                0x00000000       0xb9
+ .debug_line_str
+                0x00000000       0xb9 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_udivsi3.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x000000b9        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x000000b9        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_arm_cmpsf2.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x000000b9        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_aeabi_uldivmod.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x000000b9        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzsi2.o)
+                                 0xad (size before relaxing)
+ .debug_line_str
+                0x000000b9        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/15.2.0/lib/gcc/arm-none-eabi/15.2.0/thumb/v6-m/nofp/libgcc.a(_clzdi2.o)
+                                 0xad (size before relaxing)

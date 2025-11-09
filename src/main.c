@@ -19,7 +19,8 @@
 #include "main.h"
 #include "board_init.h"
 #include "board_config.h"
-#include "hal_config.h"
+//#include "hal_config.h"
+#include "hal_config.h" 
 
 /* Application includes */
 #include "app.h"

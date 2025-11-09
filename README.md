@@ -107,3 +107,46 @@
           │   └── issue_tracker.xlsx    # Issue tracker.
           └── Assignment.pdf
           
+## MAKE
+
+    """
+        make                       
+        CC  src/main.c
+        CC  src/memset.c
+        CC  src/libc_init.c
+        CC  board/board_init.c
+        CC  hal/hal_config.c
+        CC  drivers/pressure_sensor/ms58.c
+        CC  drivers/pressure_sensor/ms58_hal_wrapper.c
+        CC  drivers/i2c_slave/i2c_slave.c
+        CC  drivers/dac/dac.c
+        CC  app/app.c
+        CC  app/sensor_sampling.c
+        CC  hal/stm32cube/Drivers/CMSIS/Device/ST/STM32L0xx/Source/Templates/system_stm32l0xx.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_rcc_ex.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_gpio.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_i2c_ex.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_tim_ex.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dac_ex.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_cortex.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_pwr.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_flash_ex.c
+        CC  hal/stm32cube/Drivers/STM32L0xx_HAL_Driver/Src/stm32l0xx_hal_dma.c
+        AS  startup/startup_stm32l072xx.s
+        LD  build/firmware.elf
+        Memory region         Used Size  Region Size  %age Used
+                FLASH:       16904 B       192 KB      8.60%
+                    RAM:        1912 B        20 KB      9.34%
+        Size:
+        text    data     bss     dec     hex filename
+        16888      16    1896   18800    4970 build/firmware.elf
+        OBJCOPY build/firmware.bin
+        OBJCOPY build/firmware.hex
+
+    """

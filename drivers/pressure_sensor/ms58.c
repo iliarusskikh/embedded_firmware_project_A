@@ -2,6 +2,7 @@
 #include "ms58_regs.h"
 #include <stdint.h>
 #include <limits.h>  /* For INT32_MAX, INT32_MIN */
+#include <stddef.h>  /* For NULL */
 
 
 // Reset the sensor
@@ -138,10 +139,9 @@ ms583730ba01_err_t ms5837_read_temperature_and_pressure(
     }
     
     // Overflow protection: Clamp temperature to int32_t range (shouldn't overflow, but safe)
+    // Note: *temperature is int32_t, so it can't be < INT32_MIN, only check upper bound
     if (*temperature > INT32_MAX) {
         *temperature = INT32_MAX;
-    } else if (*temperature < INT32_MIN) {
-        *temperature = INT32_MIN;
     }
 
     return E_MS58370BA01_SUCCESS;
@@ -189,10 +189,9 @@ ms583730ba01_err_t ms5837_calculate_pressure_temperature(
     }
     
     // Overflow protection: Clamp temperature to int32_t range (shouldn't overflow, but safe)
+    // Note: *temperature is int32_t, so it can't be < INT32_MIN, only check upper bound
     if (*temperature > INT32_MAX) {
         *temperature = INT32_MAX;
-    } else if (*temperature < INT32_MIN) {
-        *temperature = INT32_MIN;
     }
     
     return E_MS58370BA01_SUCCESS;

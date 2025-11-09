@@ -111,7 +111,7 @@ bool i2c_slave_init(I2C_HandleTypeDef *hi2c, uint8_t slave_addr)
     i2c_slave_handle = hi2c;
     
     /* Verify the handle is configured for slave mode */
-    if (i2c_slave_handle->Init.OwnAddress1 != (slave_addr << 1)) {
+    if (i2c_slave_handle->Init.OwnAddress1 != (uint32_t)(slave_addr << 1)) {
         return false;  /* Address mismatch */
     }
     

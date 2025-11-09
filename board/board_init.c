@@ -10,12 +10,10 @@
 #include "board_init.h"
 #include "board_config.h"
 
-/* STM32 HAL/LL includes - adjust paths based on your STM32Cube structure */
+/* STM32 HAL includes - adjust paths based on your STM32Cube structure */
 #include "stm32l0xx_hal.h"
-#include "stm32l0xx_ll_rcc.h"
-#include "stm32l0xx_ll_system.h"
-#include "stm32l0xx_ll_gpio.h"
-#include "stm32l0xx_ll_bus.h"
+#include "stm32l0xx_hal_rcc.h"
+#include "stm32l0xx_hal_gpio.h"
 
 /* External HAL handle - should be defined in hal_config.h or main */
 extern I2C_HandleTypeDef hi2c1;
@@ -35,16 +33,15 @@ static uint32_t sysclk_freq = BOARD_SYSCLK_FREQ_HZ;
  */
 static void board_config_i2c_pin(GPIO_TypeDef *port, uint32_t pin, uint32_t af)
 {
-    LL_GPIO_InitTypeDef gpio_init = {0};
+    GPIO_InitTypeDef gpio_init = {0};
     
     gpio_init.Pin = pin;
-    gpio_init.Mode = LL_GPIO_MODE_ALTERNATE;
-    gpio_init.Speed = LL_GPIO_SPEED_FREQ_MEDIUM;
-    gpio_init.OutputType = LL_GPIO_OUTPUT_OPENDRAIN;
-    gpio_init.Pull = LL_GPIO_PULL_UP;
+    gpio_init.Mode = GPIO_MODE_AF_OD;
+    gpio_init.Speed = GPIO_SPEED_FREQ_MEDIUM;
+    gpio_init.Pull = GPIO_PULLUP;
     gpio_init.Alternate = af;
     
-    LL_GPIO_Init(port, &gpio_init);
+    HAL_GPIO_Init(port, &gpio_init);
 }
 
 /**
@@ -52,13 +49,13 @@ static void board_config_i2c_pin(GPIO_TypeDef *port, uint32_t pin, uint32_t af)
  */
 static void board_config_dac_pin(GPIO_TypeDef *port, uint32_t pin)
 {
-    LL_GPIO_InitTypeDef gpio_init = {0};
+    GPIO_InitTypeDef gpio_init = {0};
     
     gpio_init.Pin = pin;
-    gpio_init.Mode = LL_GPIO_MODE_ANALOG;
-    gpio_init.Pull = LL_GPIO_PULL_NO;
+    gpio_init.Mode = GPIO_MODE_ANALOG;
+    gpio_init.Pull = GPIO_NOPULL;
     
-    LL_GPIO_Init(port, &gpio_init);
+    HAL_GPIO_Init(port, &gpio_init);
 }
 
 /* ============================================================================
@@ -67,27 +64,35 @@ static void board_config_dac_pin(GPIO_TypeDef *port, uint32_t pin)
 
 bool board_init_clock(void)
 {
+    RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+    RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+    
     /* Enable HSI oscillator */
-    LL_RCC_HSI_Enable();
-    while (LL_RCC_HSI_IsReady() == 0) {
-        /* Wait for HSI to be ready */
+    RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+    RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+    RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+    RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+    
+    if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK) {
+        return false;
     }
     
     /* Configure system clock to use HSI */
-    LL_RCC_SetSysClkSource(LL_RCC_SYS_CLKSOURCE_HSI);
-    while (LL_RCC_GetSysClkSource() != LL_RCC_SYS_CLKSOURCE_STATUS_HSI) {
-        /* Wait for clock switch */
-    }
+    RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_SYSCLK | 
+                                   RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
+    RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_HSI;
+    RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+    RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+    RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
     
-    /* Configure AHB, APB1, APB2 prescalers (1:1 for simplicity) */
-    LL_RCC_SetAHBPrescaler(LL_RCC_SYSCLK_DIV_1);
-    LL_RCC_SetAPB1Prescaler(LL_RCC_APB1_DIV_1);
-    LL_RCC_SetAPB2Prescaler(LL_RCC_APB2_DIV_1);
+    if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK) {
+        return false;
+    }
     
     /* Update system clock frequency */
     sysclk_freq = BOARD_HSI_FREQ_HZ;
     
-    /* Update SystemCoreClock variable (if using HAL) */
+    /* Update SystemCoreClock variable */
     SystemCoreClockUpdate();
     
     return true;
@@ -96,8 +101,8 @@ bool board_init_clock(void)
 bool board_init_gpio(void)
 {
     /* Enable GPIO clocks */
-    LL_IOP_GRP1_EnableClock(LL_IOP_GRP1_PERIPH_GPIOA);
-    LL_IOP_GRP1_EnableClock(LL_IOP_GRP1_PERIPH_GPIOB);
+    __HAL_RCC_GPIOA_CLK_ENABLE();
+    __HAL_RCC_GPIOB_CLK_ENABLE();
     
     /* Configure I2C1 pins (PA9, PA10) for I2C slave */
     board_config_i2c_pin(BOARD_I2C1_SCL_PORT, 
@@ -135,10 +140,10 @@ bool board_init(void)
     }
     
     /* Enable peripheral clocks */
-    LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_I2C1);
-    LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_I2C2);
-    LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_DAC1);
-    LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_TIM2);
+    __HAL_RCC_I2C1_CLK_ENABLE();
+    __HAL_RCC_I2C2_CLK_ENABLE();
+    __HAL_RCC_DAC_CLK_ENABLE();
+    __HAL_RCC_TIM2_CLK_ENABLE();
     
     return true;
 }
